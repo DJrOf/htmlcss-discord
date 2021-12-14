@@ -29,3 +29,24 @@
     justify-self: flex-start;
     color: white;
 }
+
+.seca {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.card1 {
+    position: relative;
+    text-align: center;
+      align-items: center;
+      display: flex;
+}
+
+
+.img1 {
+    height: 30vh;
+    float: left;
+}
+
