@@ -30,23 +30,152 @@
     color: white;
 }
 
+.logoimg {
+    width: 5vh;
+    height: 5vh;
+    margin: 0 auto;
+}
+
+/* Sezione A*/
+
 .seca {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    padding: 5%;
     
 }
 
 .card1 {
     position: relative;
-    text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+}
+
+.img1 {
+    height: 30vh;
+}
+
+.texta {
+    width: 30vh;  
+}
+
+/* Sezione B*/
+
+.secb {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5%;
+    
+}
+
+.card2 {
+    position: relative;
+      align-items: center;
+      display: flex;
+      flex-direction: row-reverse;
+}
+
+
+.img2 {
+    height: 30vh;
+    
+}
+
+.textb {
+    width: 30vh;  
+}
+
+/* Sezione C*/
+
+.secc {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5%;
+}
+
+.card3 {
+    position: relative;
       align-items: center;
       display: flex;
 }
 
-
-.img1 {
+.img3 {
     height: 30vh;
-    float: left;
 }
 
+.textc {
+    width: 30vh; 
+     
+}
+
+/* Sezione D*/
+
+.secd {
+    
+    background-size: cover;
+    padding: 5%;
+   
+    
+}
+
+.card4 {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+
+.img4 {
+    height: 50vh;
+    width: 90vh;
+    
+    object-fit: contain;
+}
+
+.textd {
+
+}
+
+/*Footer*/
+
+footer {
+    height: 65vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.itaimg {
+    width: 1vh;
+    height: 1vh;
+    margin: 2px;
+}
+
+
+
+.socialimg {
+    width: 2vh;
+    height: 2vh;
+    margin: 2px;
+    background-color: white;
+}
+
+#footertitle {
+    color: #5865F2;
+}
+
+li {
+    list-style: none;
+}
